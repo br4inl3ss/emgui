@@ -1,0 +1,9 @@
+[2026-11-15 17:08:48.574] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-15 17:27:20.071] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-15 17:53:59.174] [compile] cannot call non-const method `with_alpha()` through a const object - only const-qualified member functions may be called on one
+  hint: declare `with_alpha()` const if it does not modify the object, or reach the object through a non-const reference (C:/Users/neverland-aa/Desktop/menu-framework/ui/components/color_picker.em:92:27)
+[2026-11-15 17:59:28.588] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-15 18:07:55.874] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-15 18:11:22.600] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-15 18:31:40.189] load_script: C:\Users\neverland-aa\Desktop\menu-framework\demo\demo.em (precompiled=0 debug=0)
+[2026-11-23 23:55:09.562] [compile] no method `notAMethod()` on type `ui::Tab` (chatbot_compile:3:101)
