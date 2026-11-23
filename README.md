@@ -1,7 +1,3 @@
-# Writing an Interface
-
-This guide shows how to build a menu with Neverland UI, from the first window to a full multi-tab tool. It focuses on how the pieces fit together rather than listing every method; the [README](../README.md) has the complete reference tables, and [`demo/`](../demo) is a working example of everything shown here.
-
 ## The idea in one paragraph
 
 You describe the interface **once**, at startup. Each `add…` call creates an element, attaches it to its parent and returns a pointer to it. From then on the framework does the rest every frame: layout, mouse and keyboard input, animation, scaling and drawing. Your code only hears about it when something changes, through the callbacks you registered.
@@ -238,6 +234,4 @@ Several windows can be open at once. They are dragged by the title bar, resized 
 
 ## Where to go next
 
-- [`README.md`](../README.md): full reference tables, paste rules, theme roles, custom render and input backends.
 - [`demo/demo.em`](../demo/demo.em): load it in Perception to try every feature.
-- [`tests/interaction_tests.em`](../tests/interaction_tests.em): runs the demo headless with scripted input; handy as executable documentation of the exact behavior.
